@@ -35,7 +35,7 @@ const Technology = () => {
     }
   return (
     <>
-      <div className="p-4">
+      <div className="p-4 container mx-auto">
         <div>
           <img
           className="w-[250px] h-[250px] rounded-2xl "
