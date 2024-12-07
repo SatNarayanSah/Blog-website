@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const BlogCard = ({ id, title, description, author, slug, date, image }) => {
+const BlogCard = ({ id, title, description, author, category, date, image }) => {
   return (
     <div className="flex flex-wrap gap-4 border-b-2 border-black border-opacity-20 pb-8">
       <div className="flex relative">
@@ -11,7 +11,7 @@ const BlogCard = ({ id, title, description, author, slug, date, image }) => {
           alt="image"
         />
         <p className="absolute top-3 left-3 bg-white text-blue-950 font-bold p-3 rounded-xl">
-          Category
+          Category {category}
         </p>
       </div>
       <div className="w-full max-w-[350px] relative">

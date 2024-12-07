@@ -126,7 +126,7 @@ const Home = () => {
                   title={blog.title}
                   description={blog.desciption}
                   author={blog.author}
-                  slug={blog.slug}
+                  category={blog.category}
                   date={blog.data}
                   image={blog.image}
                 />
